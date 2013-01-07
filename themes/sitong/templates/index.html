@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+{% if articles %}
+    {% for article in articles_page.object_list %}
+
+        {# First item #}
+        <header>
+            <h1><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
+                   title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
+        {% include 'article_date.html' %}
+        </header>
+        <article>
+            {{ article.content }}
+            {% include 'comments.html' %}
+            {% include 'taglist.html' %}
+        </article>
+        {% if loop.last %}
+            {% if loop.last and (articles_page.has_previous() 
+            or not articles_page.has_previous() and loop.length > 1) %}
+                {% include 'pagination.html' %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+{% endblock content %}
