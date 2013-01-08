@@ -39,9 +39,9 @@ header#sidebar div.bounds {
 }
 
 header h1 {
-    font-family: 'Linden Hill', Georgia, serif;
-    font-size: 3em;
-    font-weight: 400;
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: 2.5em;
+    font-weight: 300;
     line-height: 1.1em;
     margin-bottom: 0em;
 }
@@ -90,8 +90,8 @@ section#main article {
 #main h1, #main h2, #main h3, #main h4, #main h5{
     color: #3c3c3c;
     line-height: 1.1em;
-    font-family: 'Linden Hill', Georgia, serif;
-    font-weight: 400;
+    font-family: 'Merriweather', Georgia, serif;
+    font-weight: 700;
 }
 
 #main h1 {
@@ -99,6 +99,17 @@ section#main article {
     margin-top: 0;
     margin-bottom: 0.3em;
     color: #202020;
+    font-weight: 300;
+}
+
+#main h2 {
+    color: #303030;
+    padding-left: 0;
+}
+
+#main h3 {
+    color: #404040;
+    padding-left: 0;
 }
 
 footer {
@@ -115,20 +126,19 @@ div.comments {
 }
 
 dt {
-    margin-top: 5px;
+    margin: 10px 0;
     color: #bdbdbd;
     font-style: italic;
 }
 
 dd {
     margin-top: 5px;
-    font-family: 'Linden Hill', Georgia, serif;
+    font-family: 'Merriweather', Georgia, serif;
     font-size: 1.5em;
 }
 
 a {
     color: inherit;
-    font-size: inherit;
     text-decoration: none;
 }
 
@@ -142,22 +152,24 @@ h1 {
 
 h2 {
     padding-left: 20px;
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 h3 {
     padding-left: 40px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin: 0;
 }
 
 p {
     line-height: 1.7em;
     font-size: 1em;
+    margin-bottom: 0;
 }
 
 p a {
     border-bottom: 1px dotted #909090;
+    font-weight: 600;
 }
 
 p a:hover {
@@ -171,7 +183,7 @@ abbr {
 p.quote {
     border-left: 3px solid #6CBAEE;
     padding-left: 5px;
-    font-family: 'Linden Hill', Georgia, serif;
+    font-family: 'Merriweather', Georgia, serif;
     font-size: 1.4em;
 }
 
@@ -219,7 +231,7 @@ pre {
     padding: 5px;
 }
 
-tt, span.code {
+tt, span.code, code {
     font-family: 'Droid Sans Mono', monospace;
     font-size: 0.8em;
     background-color: #fafafa;

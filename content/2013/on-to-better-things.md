@@ -5,7 +5,7 @@ Slug: on-to-better-things
 Author: Sitong Peng
 Summary: Migrating my code blog to my personal domain
 
-Pretty odd to have committed to writing 100 meaningful blog posts this year, and then promptly not post until Jan 6th. But as you can tell, my excuse is that I was spending all weekend building my new blog. Well I'm glad to say, *[here it is](http://blog.sitongpeng.com)*.
+Pretty odd to have committed to writing 100 meaningful blog posts this year, and then promptly not post until Jan 6th. But as you can tell, my excuse is that I was spending all weekend building my new blog. Well I'm glad to say, *[here it is](http://blog.sitongpeng.com)*.  
 
 I'm now running on the static site generator, [Pelican](http://docs.getpelican.com/). It's awesome because it is actively developed (version 3.1.1 as of 12/4/12) and it is written in Python, which means I didn't have to default to [Jekyll](http://jekyllrb.com/). It's not that I'm averse to Jekyll, I'd just rather work in the language I'm most comfortable in (*not Ruby*). Anyways, things I'm most excited about:
 
