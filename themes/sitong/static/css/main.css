@@ -99,7 +99,6 @@ section#main article {
     margin-top: 0;
     margin-bottom: 0.3em;
     color: #202020;
-    font-weight: 300;
 }
 
 #main h2 {
@@ -237,4 +236,10 @@ tt, span.code, code {
     background-color: #fafafa;
     border: 1px solid #e3e3e3;
     border-radius: 2px
+}
+
+span#note {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #909090;
 }
