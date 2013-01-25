@@ -1,6 +1,6 @@
 AUTHOR = 'Sitong Peng'
 DISQUS_SITENAME = 'sitong-blog'
-SITENAME = 'the architect'
+SITENAME = 'spearhead'
 SITESUBTITLE = "writings about code discovery"
 SITEURL = 'http://blog.sitongpeng.com'
 TIMEZONE = 'America/Los_Angeles'

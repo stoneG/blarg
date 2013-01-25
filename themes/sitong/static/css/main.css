@@ -18,7 +18,7 @@ body {
 
 header#sidebar {
     position: fixed;
-    width: 30%;
+    width: 29%;
     min-height: 110%;
     min-width: 240px;
     margin: 0;
@@ -26,24 +26,35 @@ header#sidebar {
     /* background-color: #007272; dark teal */
     z-index: 1;
     padding-top: 15%;
-    padding-left: 2%;
+    padding-right: 5%;
     text-align: right;
 }
 
-header#sidebar div.bounds {
-    padding-left: 25%;
-    width: 65%;
+div.bounds {
     margin: 0;
-    max-width: 300px;
+    width: 300px;
     display: block;
+    float: right;
+}
+
+div.logo {
+    font-family: 'Droid Sans Mono';
+    font-size: 12px;
+    text-align: left;
+    width: 300px;
+    word-wrap: break-word;
+    white-space: pre;
+    float: left;
+    line-height: 110%;
 }
 
 header h1 {
     font-family: 'Merriweather', Georgia, serif;
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 300;
     line-height: 1.1em;
     margin-bottom: 0em;
+    clear: both;
 }
 
 header ul {
@@ -242,4 +253,9 @@ span#note {
     font-style: italic;
     font-size: 0.9em;
     color: #909090;
+}
+
+span#update {
+    font-style: italic;
+    color: red;
 }
