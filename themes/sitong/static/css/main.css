@@ -25,7 +25,7 @@ header#sidebar {
     background-color: whiteSmoke;
     /* background-color: #007272; dark teal */
     z-index: 1;
-    padding-top: 15%;
+    padding-top: 50px;
     padding-right: 5%;
     text-align: right;
 }
@@ -46,6 +46,18 @@ div.logo {
     white-space: pre;
     float: left;
     line-height: 110%;
+}
+
+.face {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 3px solid #fafafa;
+  transition: border 0.3s ease;
+}
+
+.face:hover {
+  border: 3px solid #3DB92C;
 }
 
 header h1 {
@@ -115,6 +127,7 @@ section#main article {
 #main h2 {
     color: #303030;
     padding-left: 0;
+    line-height: 1.5em;
 }
 
 #main h3 {
@@ -239,6 +252,7 @@ pre {
     border-radius: 2px;
     background-color: #fafafa;
     padding: 5px;
+    border: 1px solid #e3e3e3;
 }
 
 tt, span.code, code {
@@ -255,7 +269,18 @@ span#note {
     color: #909090;
 }
 
+span.note {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #909090;
+}
+
 span#update {
+    font-style: italic;
+    color: red;
+}
+
+span.update {
     font-style: italic;
     color: red;
 }
