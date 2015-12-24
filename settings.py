@@ -8,7 +8,7 @@ GITHUB_URL = 'https://github.com/stoneG/stoneg.github.com'
 SOCIAL = (('Twitter', 'http://twitter.com/stoneGksp'),
          ('Github', 'https:/github.com/stoneG'))
 THEME = 'themes/sitong'
-TWITTER_USERNAME = 'stoneGksp'
+TWITTER_USERNAME = 'stoneG_'
 GOOGLE_ANALYTICS = 'UA-37415854-1'
 REVERSE_CATEGORY_ORDER = False
 DEFAULT_DATE_FORMAT = '%A, %B %d, %Y'
