@@ -1,11 +1,11 @@
 AUTHOR = 'Sitong Peng'
 DISQUS_SITENAME = 'sitong-blog'
-SITENAME = 'spearhead'
-SITESUBTITLE = "writings about code discovery"
+SITENAME = 'writings'
+SITESUBTITLE = "they're the words that got out"
 SITEURL = 'http://blog.sitongpeng.com'
 TIMEZONE = 'America/Los_Angeles'
 GITHUB_URL = 'https://github.com/stoneG/stoneg.github.com'
-SOCIAL = (('Twitter', 'http://twitter.com/stoneGksp'),
+SOCIAL = (('Twitter', 'http://twitter.com/stoneG_'),
          ('Github', 'https:/github.com/stoneG'))
 THEME = 'themes/sitong'
 TWITTER_USERNAME = 'stoneG_'
