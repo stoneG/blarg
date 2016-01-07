@@ -1,5 +1,5 @@
 Title: Coming up in 2016
-Date: 2016-01-06 02:00
+Date: 2016-01-06 20:00
 Author: Sitong Peng
 Tags: resolutions, 2016
 Slug: coming-up-in-2016
@@ -10,6 +10,9 @@ It’s been a few years since I’ve done this [publicly](/posts/programming-res
 1. Ship something in virtual reality.
 2. Write 8 posts worthy of reading.
 3. Hike at two national parks, preferably new.
-4. Live in a new foreign country.
+4. Live in a foreign country that's new to me.
 5. Develop a fluidity in the kitchen so most dishes I make are served on time.
-6. Accomplish at least two physical goals for surfing, snowboarding, skiing, or weightlifting.
+6. Be able to name all common herbs & spices by sight & smell.
+7. Accomplish at least two physical goals for surfing, snowboarding, skiing, or weightlifting.
+
+Time's ticking.
