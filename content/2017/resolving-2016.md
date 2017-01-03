@@ -5,6 +5,8 @@ Tags: resolutions
 Slug: resolving-2016
 Summary: Going over my 2016 resolutions
 
+![Torrey Pines State Beach](https://raw.github.com/stoneG/stoneg.github.com/master/images/tpstatebeach.jpg)
+
 Let's go over my 2016 [resolutions](/posts/coming-up-in-2016.html):
 
 <p class="quote">"Ship something in virtual reality"</p>
