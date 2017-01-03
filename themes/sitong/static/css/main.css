@@ -110,6 +110,10 @@ section#main article {
     border-bottom: 1px solid #e3e3e3;
 }
 
+article img {
+  max-width: 99%;
+}
+
 #main h1, #main h2, #main h3, #main h4, #main h5{
     color: #3c3c3c;
     line-height: 1.1em;
