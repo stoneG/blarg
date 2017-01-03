@@ -1,7 +1,7 @@
 AUTHOR = 'Sitong Peng'
 DISQUS_SITENAME = 'sitong-blog'
-SITENAME = 'writings'
-SITESUBTITLE = "they're the words that got out"
+SITENAME = 'Writing'
+SITESUBTITLE = "My thoughts, shared"
 SITEURL = 'http://blog.sitongpeng.com'
 TIMEZONE = 'America/Los_Angeles'
 GITHUB_URL = 'https://github.com/stoneG/stoneg.github.com'
@@ -20,4 +20,3 @@ DEFAULT_ORPHANS = 3
 DEFAULT_PAGINATION = 5
 
 TAG_CLOUD_STEPS = 6
-
